@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title> M1U4 Ejercicio 1</title>
+</head>
+
+<body>
+	<script>
+		transporte = parseInt(prompt('Escriba la distancia que debe recorrer y le indicaremos el medio de transporte más adecuado:', ''));
+
+		if (transporte >= 0 && transporte <= 1000) {
+			document.write('Lo más adecuado es viajar a pie');
+		} else if (transporte > 1000 && transporte <= 10000) {
+			document.write('Lo más adecuado es viajar en bicicleta');
+		} else if (transporte > 10000 && transporte <= 30000) {
+			document.write('Lo más adecuado es viajar en colectivo');
+		} else if (transporte > 30000 && transporte <= 100000) {
+			document.write('Lo más adecuado es viajar en auto');
+		} else if (transporte > 100000) {
+			document.write('Lo más adecuado es viajar en avión');
+		}
+ 
+	</script>
+
+</body>
+
+</html>
