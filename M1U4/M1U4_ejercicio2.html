@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>M1U4 Ejercicio 2</title>
+</head>
+
+<body>
+	<script>
+
+		const num1 = parseInt(prompt('Calcularemos el valor máximo entre los siguientes valores. Ingrese el primer número:', ''));
+		const num2 = parseInt(prompt('Ingrese el segundo número:', ''));
+		const num3 = parseInt(prompt('Ingrese el tercer número:', ''));
+
+		const numeros = [num1, num2, num3];
+
+		let mayor = numeros[0]; 
+
+  		for (let x = 0; x < numeros.length; x++) {
+    		if (numeros[x] > mayor) {
+     		 mayor = numeros[x];
+    	}
+  	}
+  		document.write("El número mayor es: " + mayor);
+	</script>
+</body>
+</html>

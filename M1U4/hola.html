@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+  <script>
+    // Pedir los números al usuario
+    const num1 = parseInt(prompt('Ingrese el primer número:', ''));
+    const num2 = parseInt(prompt('Ingrese el segundo número:', ''));
+    const num3 = parseInt(prompt('Ingrese el tercer número:', ''));
+  
+    // Crear un array con los números
+    const numeros = [num1, num2, num3];
+  
+    // Inicializar el mayor con el primer valor del array
+    let mayor = numeros[0];
+  
+    // Usar un bucle para encontrar el mayor número
+    for (let i = 1; i < numeros.length; i++) {
+      if (numeros[i] > mayor) {
+        mayor = numeros[i];
+      }
+    }
+  
+    // Mostrar el número mayor
+    document.write("El número mayor es: " + mayor);
+  </script>
+</body>
+</html>
