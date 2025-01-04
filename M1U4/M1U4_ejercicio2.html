@@ -8,14 +8,18 @@
 <body>
 	<script>
 
+		// acá determino una variable para cada número
 		const num1 = parseInt(prompt('Calcularemos el valor máximo entre los siguientes valores. Ingrese el primer número:', ''));
 		const num2 = parseInt(prompt('Ingrese el segundo número:', ''));
 		const num3 = parseInt(prompt('Ingrese el tercer número:', ''));
 
+		//acá determino un ARRAY de los números
 		const numeros = [num1, num2, num3];
 
+		//acá determino la variable MAYOR en representación al num mayor, y le doy como valor el valor inicial del array
 		let mayor = numeros[0]; 
 
+		//recorro el array y determino cual es el mayor
   		for (let x = 0; x < numeros.length; x++) {
     		if (numeros[x] > mayor) {
      		 mayor = numeros[x];
