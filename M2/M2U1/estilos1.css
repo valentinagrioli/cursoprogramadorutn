@@ -1,7 +1,10 @@
 .cuadrado {
-    width: 100px;
-    height: 100px;
-    border-color: black;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
     background-color: white;
-    position: absolute;
+    border-color: black;
+    border-style:solid;
+    border-width: 2px;
 }
