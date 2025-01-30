@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>M2U1_Actividad 1</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="cuadrado1">
+    </div>
+
+    <div class="cuadrado2">
+    </div>
+
+    <div class="cuadrado3">
+    </div>
+
+    <script>
+        // CSS
+        const body = document.querySelector('body');
+        const cuadrado1 = document.querySelector('.cuadrado1');
+        const cuadrado2 = document.querySelector('.cuadrado2');
+        const cuadrado3 = document.querySelector('.cuadrado3');
+        
+        cuadrado1.addEventListener('click', function() {
+            body.style.backgroundColor = 'skyblue';
+        });
+
+        cuadrado2.addEventListener('click', function() {
+            body.style.backgroundColor = 'yellow';
+        });
+
+        cuadrado3.addEventListener('click', function() {
+            body.style.backgroundColor = 'pink';
+        });
+
+    </script>
+</body>
+</html>

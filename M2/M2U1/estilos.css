@@ -1,0 +1,24 @@
+
+.cuadrado1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    background-color: skyblue;
+}
+
+.cuadrado2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    background-color: yellow;
+}
+
+.cuadrado3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    background-color: pink;
+}
