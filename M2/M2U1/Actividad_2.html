@@ -8,20 +8,24 @@
 
 <body>
 
-    <div class="cuadrado">
+    <p>Acá podés escribir:</p>
+
+    <div class="cuadrado" contenteditable="true" >
     </div>
 
-    <script>
+    <p><br>Cantidad de caracteres: <span id="contador">0</span></p>
+
+        <script>
+
         // CSS
         const cuadrado = document.querySelector('.cuadrado');
-        const cuadrado2 = document.querySelector('.cuadrado2');
-        const cuadrado3 = document.querySelector('.cuadrado3');
-        
-        cuadrado.addEventListener('click', function() {
-            body.style.backgroundColor = 'skyblue';
+        const contador = document.getElementById('contador');
+
+        cuadrado.addEventListener('input', function() {
+            contador.textContent = cuadrado.innerText.length;
         });
 
-
 </script>
+
 </body>
 </html>
