@@ -21,7 +21,7 @@
         const cuadrado = document.querySelector('.cuadrado');
         const contador = document.getElementById('contador');
 
-        cuadrado.addEventListener('input', function() {
+        cuadrado.addEventListener('keyup', function() {
             contador.textContent = cuadrado.innerText.length;
         });
 
