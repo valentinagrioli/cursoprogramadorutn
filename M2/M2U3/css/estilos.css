@@ -1,0 +1,19 @@
+
+#logo {
+  width: 50%;
+  height: 50%;
+}
+
+.item {
+  font-family: "Poppins", serif;
+}
+
+h1 {
+  font-family: "arlette", sans-serif;
+}
+
+.portada {
+  background-color: grey;
+  background-size: cover;
+}
+
