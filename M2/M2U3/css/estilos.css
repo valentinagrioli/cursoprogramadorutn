@@ -17,3 +17,10 @@ h1 {
   background-size: cover;
 }
 
+.informacion {
+  background-color: brown;
+  color: beige;
+  height: 100px;
+  margin-top: 2.5%;
+  font-family: "Poppins", sans-serif;
+}
