@@ -1,0 +1,18 @@
+{
+  "name": "m3u1",
+  "version": "1.0.0",
+  "main": "prueba.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "author": "Valentina Grioli",
+  "license": "ISC",
+  "description": "Este archivo es el package.json que creamos para la tarea 1 del módulo 3 unidad 1",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "express": "^4.21.2",
+    "jquery": "^3.7.1",
+    "moment": "^2.30.1",
+    "nodemon": "^3.1.9"
+  }
+}
