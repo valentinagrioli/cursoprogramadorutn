@@ -7,7 +7,7 @@
   },
   "author": "Valentina Grioli",
   "license": "ISC",
-  "description": "Este archivo es el package.json que creamos para la tarea 1 del Módulo 3 Unidad 1",
+  "description": "Este archivo es el package.json que creo para la tarea 1 del Módulo 3 Unidad 1",
   "dependencies": {
     "aos": "^2.3.4",
     "express": "^4.21.2",
